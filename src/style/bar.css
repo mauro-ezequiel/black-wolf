@@ -1,0 +1,23 @@
+.logo {
+  border-radius: 50%;
+  width: 3em;
+  margin-left: 5em;
+}
+
+.bar {
+  width: 100%;
+}
+
+.navbar-nav {
+  margin-left: 35em;
+}
+
+@media screen and (max-width: 780px) {
+  .navbar-nav {
+    margin-left: 0em;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,55 @@
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(177, 183, 183);
+  margin: 1em 35em;
+}
+
+@media screen and (max-width: 820px) {
+  .link {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 80%;
+  }
+  .paragraph {
+    font-size: 0.6rem;
+
+    width: 60%;
+  }
+}
+
+/*name */
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  font-family: "Orbitron";
+  margin: auto;
+  margin-right: 1px;
+}
+
+.paragraph {
+  font-size: 1.3rem;
+  color: rgb(82, 82, 83);
+  font-weight: bold;
+  margin: 1em 100px;
+  width: 60%;
+}
+
+.bo {
+  position: relative;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  padding: 10px;
+}
+.bo:hover {
+  text-shadow: 4px 1px 5px rgb(42, 41, 41);
+}
