@@ -2,6 +2,9 @@
   text-align: center;
   padding: 30px 0;
 }
+.t {
+  text-shadow: #656565 5px 10px 5px;
+}
 
 .container-products {
   display: grid;
