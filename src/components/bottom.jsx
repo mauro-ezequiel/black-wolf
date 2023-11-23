@@ -2,7 +2,7 @@ import "../style/bottom.css";
 
 export function Bottom() {
   return (
-    <section className="clear ">
+    <section className="clear b ">
       <h1 className="title"> Contacto </h1>
       <div className="row">
         <div className="col-md-4">

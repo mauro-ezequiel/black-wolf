@@ -1,0 +1,20 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 4em;
+  width: 85vw;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.card {
+  width: 22em;
+}
+.image {
+  width: 22em;
+  height: 12em;
+  border-radius: 0.5em;
+}

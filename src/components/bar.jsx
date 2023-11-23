@@ -3,8 +3,8 @@ import "../style/bar.css";
 
 export function Bar() {
   return (
-    <section className="bar">
-      <nav className=" navbar navbar-expand-lg bg-body-tertiary">
+    <section className="bar ">
+      <nav className="  navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={logo} className="logo" />
