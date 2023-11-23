@@ -10,10 +10,10 @@ function App() {
     <>
       <Bar />
       <section className="dark">
-        <h2 className="title t">BLACK WOLF</h2>
+        <h1 className="title t">BLACK WOLF</h1>
         <Home />
         <div className="container-title">
-          <h3 className="title">IMPRESION 3D & ACCESORIOS GYM</h3>
+          <h2 className="title">IMPRESION 3D & ACCESORIOS GYM</h2>
         </div>
         <div>
           <div className="material">
