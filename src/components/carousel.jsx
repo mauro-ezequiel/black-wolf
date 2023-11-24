@@ -1,6 +1,6 @@
 import acces from "../img/accesorios.jpg";
 import trofeo from "../img/trofeos.jpg";
-import per from "../img/skibbidit.jpg";
+import south from "../img/south.jpg";
 import v from "../img/agarre-v.jpg";
 import "../style/carousel.css";
 
@@ -25,7 +25,7 @@ export const Carousel = () => {
           </div>
           <div loading="lazy" className="carousel-item">
             <a href="home">
-              <img className="d-block w-100 img" src={per} alt="airpods" />
+              <img className="d-block w-100 img" src={south} alt="airpods" />
             </a>
           </div>
           <div loading="lazy" className="carousel-item">
