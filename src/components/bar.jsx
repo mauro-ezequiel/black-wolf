@@ -6,7 +6,7 @@ export function Bar() {
     <section className="bar ">
       <nav className="  navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img src={logo} className="logo" />
           </a>
           <button
@@ -23,18 +23,18 @@ export function Bar() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   inicio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  impresion 3D
+                <a className="nav-link" href="/3d">
+                  Impresion 3D
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  accesorios GYM
+                <a className="nav-link" href="/gym">
+                  Accesorios GYM
                 </a>
               </li>
               <li className="nav-item dropdown">

@@ -5,15 +5,24 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { Home } from "./components/home.jsx";
+import { Impresion } from "./router/3d.jsx";
+import { Gym } from "./router/gym.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <App />, errorElement: <h1>error</h1> },
   {
-    path: "/products",
+    path: "/3d",
     element: (
       <>
-        <Home />
+        <Impresion />
+      </>
+    ),
+  },
+  {
+    path: "/gym",
+    element: (
+      <>
+        <Gym />
       </>
     ),
   },

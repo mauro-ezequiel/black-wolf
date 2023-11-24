@@ -1,0 +1,41 @@
+.imge {
+  width: 35%;
+  margin: 3em;
+}
+
+.pres {
+  width: 40%;
+  margin-left: 55%;
+  margin-bottom: 50%;
+  margin-top: -30%;
+}
+
+.txt-3d {
+  display: inline-block;
+  font-size: 2rem;
+}
+.ph {
+  font-size: 1.5rem;
+}
+.p {
+  font-weight: bold;
+  color: rgb(228, 229, 222) 255, 240;
+}
+
+@media screen and (max-width: 820px) {
+  .imge {
+    margin: 0.5em;
+    width: 50%;
+  }
+
+  .pres {
+    margin-top: -40%;
+    padding: 0.5em;
+  }
+  .txt-3d {
+    font-size: 0.8em;
+  }
+  .ph {
+    font-size: 0.6em;
+  }
+}
