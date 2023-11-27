@@ -1,0 +1,26 @@
+.list {
+  list-style-type: none;
+}
+
+.txt {
+  margin: 0.4em;
+}
+.btn {
+  margin: 0.5em;
+  height: 2em;
+}
+
+@media screen and (max-width: 820px) {
+  .txt {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .list {
+    font-size: 80%;
+  }
+  .btn {
+    font-size: 1em;
+  }
+}

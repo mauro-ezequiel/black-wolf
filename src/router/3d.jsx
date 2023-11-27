@@ -14,6 +14,7 @@ import poke from "../img/poke.jpg";
 import trofeo from "../img/trofeos.jpg";
 
 import "../style/3d.css";
+import { Order } from "../components/order";
 
 export function Impresion() {
   return (
@@ -45,6 +46,10 @@ export function Impresion() {
         <Card image={llavm} title={123} p={129} price={11111} />
         <Card image={hel} title={123} p={129} price={11111} />
       </div>
+
+      <>
+        <Order />
+      </>
 
       <Bottom />
     </section>

@@ -1,13 +1,16 @@
+.container-3d {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
 .imge {
   width: 35%;
-  margin: 3em;
+  margin: 0 3em;
 }
 
 .pres {
   width: 40%;
-  margin-left: 55%;
-  margin-bottom: 20%;
-  margin-top: -30%;
 }
 
 .txt-3d {
@@ -29,7 +32,6 @@
   }
 
   .pres {
-    margin-top: -40%;
     padding: 0.5em;
   }
   .txt-3d {
