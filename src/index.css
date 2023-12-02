@@ -33,28 +33,16 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 15px 30px;
-  height: 100%;
-}
-
-.info-product h3 {
-  color: #777;
-  font-weight: 500;
+  padding: 2px 2px;
+  width: 90%;
+  height: 2em;
 }
 
 .price {
-  color: #000;
+  color: #7f1010;
   font-weight: 700;
-  margin: 15px 0;
-}
-
-.info-product button {
-  background-color: #000;
-  color: #fff;
-  border: none;
-  display: block;
-  width: 100%;
-  padding: 20px 0;
-  cursor: pointer;
-  margin-top: auto;
+  margin: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

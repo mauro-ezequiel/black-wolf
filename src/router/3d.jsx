@@ -36,7 +36,15 @@ export function Impresion() {
 
       <div id="grid">
         <Card image={lib} title={12} p={129} price={11111} />
-        <Card image={tif} title={123} p={129} price={11111} />
+        <Card
+          image={tif}
+          title={"Tiffany Novia De Chucky"}
+          p={"Impresa en 3d Plástico Medida 25cm También está de 30,40cm"}
+          price={20000}
+          href={
+            "https://articulo.mercadolibre.com.ar/MLA-1554964298-tiffany-novia-de-chucky-3d-_JM#position=5&search_layout=stack&type=item&tracking_id=960408fd-6567-4397-a8fa-55a67e21409d"
+          }
+        />
         <Card image={llav} title={123} p={129} price={11111} />
         <Card image={cart} title={123} p={129} price={11111} />
         <Card image={south} title={123} p={129} price={11111} />

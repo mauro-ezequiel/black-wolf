@@ -17,10 +17,19 @@
     justify-content: center;
     align-items: center;
   }
+
   .list {
     font-size: 80%;
   }
   .btn {
     font-size: 1em;
   }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2em;
 }

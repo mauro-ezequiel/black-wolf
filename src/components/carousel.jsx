@@ -2,6 +2,7 @@ import acces from "../img/accesorios.jpg";
 import trofeo from "../img/trofeos.jpg";
 import south from "../img/south.jpg";
 import v from "../img/agarre-v.jpg";
+import skib from "../img/skibbidit.jpg";
 import "../style/carousel.css";
 
 export const Carousel = () => {
@@ -10,12 +11,17 @@ export const Carousel = () => {
       <div id="carousel" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner img-fluid">
           <div className="carousel-item active" data-bs-interval="10000">
-            <a href="home">
+            <a href="/3d">
               <img src={trofeo} className="d-block w-100 img" alt="repair" />
             </a>
           </div>
+          <div loading="lazy" className="carousel-item">
+            <a href="/3d">
+              <img className="d-block w-100 img" src={skib} alt="skibitoilet" />
+            </a>
+          </div>
           <div className="carousel-item" data-bs-interval="2000">
-            <a href="home">
+            <a href="/gym">
               <img
                 src={acces}
                 className="d-block w-100 img"
@@ -24,12 +30,12 @@ export const Carousel = () => {
             </a>
           </div>
           <div loading="lazy" className="carousel-item">
-            <a href="home">
+            <a href="/3d">
               <img className="d-block w-100 img" src={south} alt="airpods" />
             </a>
           </div>
           <div loading="lazy" className="carousel-item">
-            <a href="home">
+            <a href="/gym">
               <img className="d-block w-100 img" src={v} alt="airpods" />
             </a>
           </div>
