@@ -2,16 +2,6 @@ import { Bar } from "../components/bar";
 import { Bottom } from "../components/bottom";
 import { Card } from "../components/props";
 
-import v from "../img/agarre-v.jpg";
-import tif from "../img/tif.jpg";
-import llav from "../img/llavp.jpg";
-import cart from "../img/cartman.jpg";
-import south from "../img/south.jpg";
-import hel from "../img/he.jpg";
-import llavm from "../img/llavmer.jpg";
-import poke from "../img/poke.jpg";
-import trofeo from "../img/trofeos.jpg";
-
 import "../style/3d.css";
 
 export function Gym() {
@@ -23,16 +13,60 @@ export function Gym() {
       <h1 className="title">PRODUCTOS</h1>
 
       <div id="grid">
-        <Card image={v} title={12} p={129} price={11111} />
-        <Card image={tif} title={123} p={129} price={11111} />
-        <Card image={llav} title={123} p={129} price={11111} />
-        <Card image={cart} title={123} p={129} price={11111} />
-        <Card image={south} title={123} p={129} price={11111} />
-        <Card image={poke} title={123} p={129} price={11111} />
-        <Card image={trofeo} title={123} p={129} price={11111} />
-
-        <Card image={llavm} title={123} p={129} price={11111} />
-        <Card image={hel} title={123} p={129} price={11111} />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={12}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={12}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={12}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={12}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={12}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={12}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
       </div>
 
       <Bottom />

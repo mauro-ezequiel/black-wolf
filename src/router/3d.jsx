@@ -2,16 +2,6 @@ import { Bar } from "../components/bar";
 import { Bottom } from "../components/bottom";
 import { Card } from "../components/props";
 
-import lib from "../img/lib40.jpg";
-import tif from "../img/tif.jpg";
-import llav from "../img/llavp.jpg";
-import cart from "../img/cartman.jpg";
-import south from "../img/south.jpg";
-import hel from "../img/he.jpg";
-import llavm from "../img/llavmer.jpg";
-import poke from "../img/poke.jpg";
-import trofeo from "../img/trofeos.jpg";
-
 import "../style/3d.css";
 
 export function Impresion() {
@@ -24,9 +14,18 @@ export function Impresion() {
       <h1 className="title">PRODUCTOS</h1>
 
       <div id="grid">
-        <Card image={lib} title={12} p={129} price={11111} />
         <Card
-          image={tif}
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={12}
+          p={129}
+          price={11111}
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
           title={"Tiffany Novia De Chucky"}
           p={"Impresa en 3d Plástico Medida 25cm También está de 30,40cm"}
           price={20000}
@@ -34,15 +33,69 @@ export function Impresion() {
             "https://articulo.mercadolibre.com.ar/MLA-1554964298-tiffany-novia-de-chucky-3d-_JM#position=5&search_layout=stack&type=item&tracking_id=960408fd-6567-4397-a8fa-55a67e21409d"
           }
         />
-        <Card image={llav} title={123} p={129} price={11111} href={"3"} />
-        <Card image={cart} title={123} p={129} price={11111} href={"3"} />
-        <Card image={south} title={123} p={129} price={11111} href={"3"} />
-        <Card image={poke} title={123} p={129} price={11111} href={"3"} />
-        <Card image={trofeo} title={123} p={129} price={11111} href={"3"} />
-
-        <Card image={llavm} title={123} p={129} price={11111} href={"3"} />
         <Card
-          image={hel}
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_681955-MLA73140674924_122023-O.webp"
+          }
+          title={"Copa Mundial 25cm"}
+          p={
+            "Impresión 3d. Tambien tenemos las siguientes medidas: 20,25,30 y 40cm "
+          }
+          price={5800}
+          href={
+            "https://articulo.mercadolibre.com.ar/MLA-1494573074-copa-mundial-25cm-impresion-3d-_JM#position=3&search_layout=stack&type=item&tracking_id=bc0ae05e-c1bb-4c96-8ddc-d52da8d29929"
+          }
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={123}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={123}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={123}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={123}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
+
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+          }
+          title={123}
+          p={129}
+          price={11111}
+          href={"3"}
+        />
+        <Card
+          image={
+            "https://http2.mlstatic.com/D_NQ_NP_2X_874995-MLA73224722305_122023-F.webp"
+          }
           title={"Cubo Hellraiser"}
           p={"Medida 7x7cm Material: plastico Color: dorado"}
           price={"19000"}
