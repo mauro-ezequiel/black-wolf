@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { Impresion } from "./router/3d.jsx";
 import { Gym } from "./router/gym.jsx";
+import { Order } from "./components/pedido.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <App />, errorElement: <h1>error</h1> },
@@ -24,6 +25,14 @@ const router = createBrowserRouter([
       <>
         <Gym />
       </>
+    ),
+  },
+  {
+    path: "/order",
+    element: (
+      <div>
+        <Order />
+      </div>
     ),
   },
 ]);

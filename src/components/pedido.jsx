@@ -1,8 +1,13 @@
 import "../style/order.css";
+import { Bar } from "./bar";
+import { Bottom } from "./bottom";
 
+import md from "../img/md.jpg";
 export const Order = () => {
   return (
-    <section>
+    <section className="dark">
+      <Bar />
+
       <h2 className="title"> Pedido</h2>
       <div className="container">
         <h4 className="txt"> podes pedir tu pedido de la siguiente forma:</h4>
@@ -47,6 +52,18 @@ export const Order = () => {
           </li>
         </ul>
       </div>
+      <div className="container-3d">
+        <img className="imge" src={md} />
+        <div className="pres">
+          <h2 className="txt-3d">Medida maxima del proyecto</h2>
+          <p className="ph">
+            dependiendo el modelo vamos a poder construirlo en partes.
+            <p className="p">(a una medida mayor si es lo deseado)</p>
+          </p>
+        </div>
+      </div>
+
+      <Bottom />
     </section>
   );
 };
