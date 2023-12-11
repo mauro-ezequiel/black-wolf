@@ -16,19 +16,22 @@ export function Impresion() {
       <div id="grid">
         <Card
           image={
-            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+            "https://http2.mlstatic.com/D_NQ_NP_600273-MLA73140637134_122023-O.webp"
           }
-          title={12}
-          p={129}
-          price={11111}
+          title={"Red Skull 34cm "}
+          p={"sin envio gratis"}
+          price={"11.500"}
+          href={
+            "https://articulo.mercadolibre.com.ar/MLA-1394454645-red-skull-34cm-capitan-america-1-_JM#position=1&search_layout=stack&type=item&tracking_id=ca611dc9-224c-4085-a"
+          }
         />
         <Card
           image={
             "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
           }
-          title={"Tiffany Novia De Chucky"}
-          p={"Impresa en 3d Plástico Medida 25cm También está de 30,40cm"}
-          price={20000}
+          title={"Tiffany Novia De Chucky 25cm"}
+          p={"'envio gratisa' todo el pais "}
+          price={"20.000"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1554964298-tiffany-novia-de-chucky-3d-_JM#position=5&search_layout=stack&type=item&tracking_id=960408fd-6567-4397-a8fa-55a67e21409d"
           }
@@ -38,35 +41,37 @@ export function Impresion() {
             "https://http2.mlstatic.com/D_NQ_NP_681955-MLA73140674924_122023-O.webp"
           }
           title={"Copa Mundial 25cm"}
-          p={
-            "Impresión 3d. Tambien tenemos las siguientes medidas: 20,25,30 y 40cm "
-          }
-          price={5800}
+          p={"sin envio gratis"}
+          price={"5.800"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1494573074-copa-mundial-25cm-impresion-3d-_JM#position=3&search_layout=stack&type=item&tracking_id=bc0ae05e-c1bb-4c96-8ddc-d52da8d29929"
           }
         />
         <Card
           image={
-            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+            "https://http2.mlstatic.com/D_NQ_NP_892513-MLA73268808933_122023-O.webp"
           }
-          title={123}
-          p={129}
-          price={11111}
-          href={"3"}
+          title={"Cabeza De Chucky 20cm"}
+          p={"'envio gratis'atodo el pais"}
+          price={"17.000"}
+          href={
+            "https://articulo.mercadolibre.com.ar/MLA-1398182805-cabeza-de-chucky-20cm-impresion-3d-_JM#position=1&search_layout=stack&type=item&tracking_id=9cbc90c0-5f20-4469-b1a5-ca12c6c0e017"
+          }
         />
         <Card
           image={
-            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+            "https://http2.mlstatic.com/D_NQ_NP_966253-MLA73183729594_122023-O.webp"
           }
-          title={123}
-          p={129}
-          price={11111}
-          href={"3"}
+          title={"South Park Set De 5personajes"}
+          p={"sin envio gratis"}
+          price={"15.000"}
+          href={
+            "https://articulo.mercadolibre.com.ar/MLA-1398169861-figuras-south-park-set-de-5-personajes-8cm-_JM#position=1&search_layout=stack&type=item&tracking_id=1a35d2fe-86f9-4e12-869e-22c8e80b5680"
+          }
         />
         <Card
           image={
-            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
+            "https://http2.mlstatic.com/D_NQ_NP_966253-MLA73183729594_122023-O.webp"
           }
           title={123}
           p={129}

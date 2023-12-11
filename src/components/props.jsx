@@ -5,8 +5,8 @@ export const Card = ({ image, title, price, p, href }) => {
     <>
       <div className="card ">
         <img src={image} alt={title} className="image card-img-top" />
-        <div className="card-body">
-          <h5 className="card-title">{title}</h5>
+        <div className="padding">
+          <h5 className="tit">{title}</h5>
           <p className=" info-product card-text">{p}</p>
         </div>
         <h3 className="price">{price}</h3>

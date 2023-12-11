@@ -8,7 +8,7 @@ export const Order = () => {
     <section className="dark">
       <Bar />
 
-      <h2 className="title"> Pedido</h2>
+      <h1 className="title"> Pedido</h1>
       <div className="container">
         <h4 className="txt"> podes pedir tu pedido de la siguiente forma:</h4>
         <ul className="list">
@@ -52,6 +52,26 @@ export const Order = () => {
           </li>
         </ul>
       </div>
+      <div className="container">
+        <h4>Productos que se pueden imprimir:</h4>
+        <h5>
+          <span className="badge bg-secondary">llaveros</span>
+          <span className="badge bg-secondary">trofeos</span>
+          <span className="badge bg-secondary">medallas</span>
+          <span className="badge bg-secondary">mates</span>
+          <span className="badge bg-secondary">maceta</span>
+          <span className="badge bg-secondary">personajes</span>
+          <h5>
+            <span className="badge bg-secondary">heroes</span>
+            <span className="badge bg-secondary">anime</span>
+            <span className="badge bg-secondary">soportes joystick</span>
+            <span className="badge bg-secondary">cotillon</span>
+            <span className="badge bg-secondary">disfraz</span>
+            <span className="badge bg-secondary">mas...</span>
+          </h5>
+        </h5>
+      </div>
+
       <div className="container-3d">
         <img className="imge" src={md} />
         <div className="pres">

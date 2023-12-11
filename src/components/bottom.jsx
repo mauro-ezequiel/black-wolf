@@ -15,6 +15,12 @@ export function Bottom() {
             <a href="https://github.com/mauro-ezequiel" target="-blank">
               <i className="bo bi-github"></i>
             </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100088989336658"
+              target="-blank"
+            >
+              <i className="bo bi-facebook"></i>
+            </a>
 
             <a href="https://wa.me/541150941389" target="-blank">
               <i className="bo bi-whatsapp" />
