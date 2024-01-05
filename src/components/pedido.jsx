@@ -82,6 +82,22 @@ export const Order = () => {
           </p>
         </div>
       </div>
+      <div className="container">
+        <h4 className="txt">
+          Forma de entrega comun:
+          <h5>
+            se entregara en las estaciones del tren linea sarmiento (moreno a
+            once). Se pactara via whatsapp
+          </h5>
+        </h4>
+        <h4 className="txt">
+          Otras formas de entrega:
+          <h5>
+            Se entrega envio a domicilio o MERCADO LIBRE. Se pactara via
+            whatsapp
+          </h5>
+        </h4>
+      </div>
 
       <Bottom />
     </section>

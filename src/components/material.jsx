@@ -13,7 +13,7 @@ export function Material() {
           <p className="card-text">
             Algunas de sus características incluyen ser biodegradable, fácil de
             imprimir, tener bajo olor y no tienen mucha resistencia. Es muy
-            utilizado
+            utilizado.
           </p>
         </div>
       </div>
@@ -28,23 +28,22 @@ export function Material() {
           <p className="card-text">
             Se caracteriza por su flexibilidad y elasticidad. lo que significa
             que puede doblarse y estirarse sin romperse. Esto lo hace ideal para
-            imprimir objetos que requieren cierta flexibilidad
+            imprimir objetos flexibles.
           </p>
         </div>
       </div>
 
       <div className="card">
         <img
-          src="https://www.somosmakers.cl/wp-content/uploads/2018/11/DSC_1169a-600x397.jpg"
+          src="https://tse2.mm.bing.net/th?id=OIP.-wqk4CoCWfzQNtVIPYfOLAAAAA&pid=Api&P=0&h=180"
           className="image card-img-top"
         />
         <div className="card-body">
           <h5 className="card-title">Filamento PETG</h5>
           <p className="card-text">
-            se caracteriza por ser fuerte, resistente y duradero. Sus
-            características incluyen una alta resistencia al impacto, una buena
-            resistencia química, una baja contracción al enfriarse, la capacidad
-            de ser reutilizado y reciclado
+            Caracteristicas: fuerte, resistente y duradero. Tiene alta
+            resistencia al impacto, alta resistencia química, baja contracción
+            al enfriarse, se puede reutilizar y reciclar
           </p>
         </div>
       </div>
@@ -57,9 +56,9 @@ export function Material() {
         <div className="card-body">
           <h5 className="card-title">Perfil de metal</h5>
           <p className="card-text">
-            El perfil de metal galvanizado es un material que está recubierto de
+            Perfil de metal galvanizado es un material que está recubierto de
             zinc para protegerlo de la corrosión. Algunas de sus características
-            incluyen su resistencia a la humedad, su durabilidad.
+            es resistente a la humedad.
           </p>
         </div>
       </div>

@@ -11,7 +11,7 @@ export function Impresion() {
 
       <h1 className="title">IMPRESION 3D</h1>
 
-      <h1 className="title">PRODUCTOS</h1>
+      <h3 className="title">PRODUCTOS</h3>
 
       <div id="grid">
         <Card
@@ -27,10 +27,21 @@ export function Impresion() {
         />
         <Card
           image={
+            "https://http2.mlstatic.com/D_NQ_NP_943474-MLA73433255380_122023-O.webp"
+          }
+          title={"Set De 9 Skibidi Toilet "}
+          p={"envio gratis a todo el pais"}
+          price={"36.000"}
+          href={
+            "https://articulo.mercadolibre.com.ar/MLA-1399394217-set-de-9-skibidi-toilet-_JM#position=2&search_layout=stack&type=item&tracking_id=e9ca7d92-8e60-4f66-858b-2b916ee2ce15"
+          }
+        />
+        <Card
+          image={
             "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
           }
           title={"Tiffany Novia De Chucky 25cm"}
-          p={"'envio gratisa' todo el pais "}
+          p={"envio gratis a todo el pais "}
           price={"20.000"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1554964298-tiffany-novia-de-chucky-3d-_JM#position=5&search_layout=stack&type=item&tracking_id=960408fd-6567-4397-a8fa-55a67e21409d"
@@ -52,7 +63,7 @@ export function Impresion() {
             "https://http2.mlstatic.com/D_NQ_NP_892513-MLA73268808933_122023-O.webp"
           }
           title={"Cabeza De Chucky 20cm"}
-          p={"'envio gratis'atodo el pais"}
+          p={"envio gratis a todo el pais"}
           price={"17.000"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1398182805-cabeza-de-chucky-20cm-impresion-3d-_JM#position=1&search_layout=stack&type=item&tracking_id=9cbc90c0-5f20-4469-b1a5-ca12c6c0e017"
@@ -64,46 +75,19 @@ export function Impresion() {
           }
           title={"South Park Set De 5personajes"}
           p={"sin envio gratis"}
-          price={"15.000"}
+          price={"16.500"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1398169861-figuras-south-park-set-de-5-personajes-8cm-_JM#position=1&search_layout=stack&type=item&tracking_id=1a35d2fe-86f9-4e12-869e-22c8e80b5680"
           }
         />
-        <Card
-          image={
-            "https://http2.mlstatic.com/D_NQ_NP_966253-MLA73183729594_122023-O.webp"
-          }
-          title={123}
-          p={129}
-          price={11111}
-          href={"3"}
-        />
-        <Card
-          image={
-            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
-          }
-          title={123}
-          p={129}
-          price={11111}
-          href={"3"}
-        />
 
-        <Card
-          image={
-            "https://http2.mlstatic.com/D_NQ_NP_769710-MLA73140680550_122023-O.webp"
-          }
-          title={123}
-          p={129}
-          price={11111}
-          href={"3"}
-        />
         <Card
           image={
             "https://http2.mlstatic.com/D_NQ_NP_2X_874995-MLA73224722305_122023-F.webp"
           }
           title={"Cubo Hellraiser"}
           p={"Medida 7x7cm Material: plastico Color: dorado"}
-          price={"19000"}
+          price={"20.500"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1554646906-cubo-hellraiser-impresion-3d-_JM#position=3&search_layout=stack&type=item&tracking_id=960705a1-37c3-4abd-9243-5d9c6eacf7ac"
           }
