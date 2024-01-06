@@ -1,5 +1,7 @@
 .list {
   list-style-type: none;
+  padding: 1em;
+  margin: 0 2.5em;
 }
 
 .txt {
