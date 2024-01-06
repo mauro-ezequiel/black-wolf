@@ -1,4 +1,4 @@
-import trofeo from "../img/trofeos.jpg";
+import sohut from "../img/f.jpg";
 
 import skib from "../img/skibbidit.jpg";
 import "../style/carousel.css";
@@ -10,9 +10,14 @@ export const Carousel = () => {
         <div className="carousel-inner img-fluid">
           <div className="carousel-item active" data-bs-interval="10000">
             <a href="/3d">
-              <img src={trofeo} className="d-block w-100 img" alt="repair" />
+              <img
+                className="d-block w-100 img"
+                src="https://http2.mlstatic.com/D_NQ_NP_966253-MLA73183729594_122023-O.webp"
+                alt="airpods"
+              />
             </a>
           </div>
+
           <div loading="lazy" className="carousel-item">
             <a href="/3d">
               <img className="d-block w-100 img" src={skib} alt="skibitoilet" />
@@ -23,19 +28,16 @@ export const Carousel = () => {
               <img
                 src="https://http2.mlstatic.com/D_NQ_NP_736811-MLA73175731038_122023-O.webp"
                 className="d-block w-100 img"
-                alt="samsung-s10"
               />
             </a>
           </div>
+
           <div loading="lazy" className="carousel-item">
             <a href="/3d">
-              <img
-                className="d-block w-100 img"
-                src="https://http2.mlstatic.com/D_NQ_NP_966253-MLA73183729594_122023-O.webp"
-                alt="airpods"
-              />
+              <img src={sohut} className="d-block w-100 img" />
             </a>
           </div>
+
           <div loading="lazy" className="carousel-item">
             <a href="/gym">
               <img
