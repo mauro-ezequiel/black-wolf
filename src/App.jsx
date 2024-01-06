@@ -21,9 +21,6 @@ function App() {
             <Material />
           </div>
         </div>
-        <a href="https://wa.me/541150941389" id="btn" target="-blank">
-          <i className="b bi-whatsapp" />
-        </a>
 
         <Bottom />
       </section>

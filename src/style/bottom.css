@@ -53,3 +53,25 @@
 .bo:hover {
   text-shadow: 4px 1px 5px rgb(42, 41, 41);
 }
+
+#btn {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgb(125, 219, 32);
+  color: aliceblue;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0, 3);
+  z-index: 100;
+}
+
+#btn:hover {
+  text-decoration: none;
+  color: rgb(25, 177, 45);
+  background: #fff;
+}
