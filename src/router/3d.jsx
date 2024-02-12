@@ -20,7 +20,7 @@ export function Impresion() {
           }
           title={"Red Skull 34cm "}
           p={"sin envio gratis"}
-          price={"11.500"}
+          price={"15.000"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1394454645-red-skull-34cm-capitan-america-1-_JM#position=1&search_layout=stack&type=item&tracking_id=ca611dc9-224c-4085-a"
           }
@@ -31,7 +31,7 @@ export function Impresion() {
           }
           title={"Set De 9 Skibidi Toilet "}
           p={"envio gratis a todo el pais"}
-          price={"36.000"}
+          price={"34.000"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1399394217-set-de-9-skibidi-toilet-_JM#position=2&search_layout=stack&type=item&tracking_id=e9ca7d92-8e60-4f66-858b-2b916ee2ce15"
           }
@@ -75,7 +75,7 @@ export function Impresion() {
           }
           title={"South Park Set De 5personajes"}
           p={"sin envio gratis"}
-          price={"16.500"}
+          price={"17.000"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1398169861-figuras-south-park-set-de-5-personajes-8cm-_JM#position=1&search_layout=stack&type=item&tracking_id=1a35d2fe-86f9-4e12-869e-22c8e80b5680"
           }

@@ -19,7 +19,7 @@ export function Gym() {
           }
           title={"Par Estribos+Agarre remo+Barra Corta+Dorsalera"}
           p={"'envio gratis'atodo el pais"}
-          price={"30.000"}
+          price={"47.000"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1398132043-par-de-estribos-agarre-casita-barra-corta-dorsalera-_JM"
           }
@@ -30,20 +30,20 @@ export function Gym() {
           }
           title={"Agarra Tipo Casita + Agarre V + Un Estribo"}
           p={"'envio gratis'atodo el pais"}
-          price={"21.00"}
+          price={"35.000"}
           href={
             "https://articulo.mercadolibre.com.ar/MLA-1593413974-agarra-tipo-casita-mas-agarre-v-mas-un-estribo-_JM#position=2&search_layout=stack&type=item&tracking_id=4aece7fc-74fb-4564-b43b-713ca11a1d91"
           }
         />
         <Card
           image={
-            "https://http2.mlstatic.com/D_NQ_NP_682370-MLA73335802439_122023-O.webp"
+            "https://http2.mlstatic.com/D_NQ_NP_647437-MLA73832467388_012024-O.webp"
           }
-          title={"Agarra Tipo Casita + Agarre V + Un Estribo"}
-          p={"'envio gratis'atodo el pais"}
-          price={"21.00"}
+          title={"Par De Estribos + Agarre remo/ Tipo Casita"}
+          p={"'sin envio gratis'atodo el pais"}
+          price={"28.000"}
           href={
-            "https://articulo.mercadolibre.com.ar/MLA-1593413974-agarra-tipo-casita-mas-agarre-v-mas-un-estribo-_JM#position=2&search_layout=stack&type=item&tracking_id=4aece7fc-74fb-4564-b43b-713ca11a1d91"
+            "https://articulo.mercadolibre.com.ar/MLA-1626817134-par-de-estribos-agarre-tipo-casita-_JM"
           }
         />
       </div>

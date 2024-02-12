@@ -8,8 +8,8 @@ import { Material } from "./components/material";
 function App() {
   return (
     <>
-      <Bar />
       <section className="dark">
+        <Bar />
         <h1 className="title t">BLACK WOLF</h1>
         <Home />
         <div className="container-title">
